@@ -1,0 +1,87 @@
+/* **************Resturant data*******/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(240, 231, 220, 0.779);
+}
+
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    margin: 10px;
+    padding-left: 120px;
+    background-color: whitesmoke;
+}
+.container{
+    background-color: antiquewhite;
+    margin: 10px;
+   
+ }
+.card{
+    
+    width: 200px;
+     border: 2px solid black; 
+    padding: 10px;
+    margin: 10px;
+}
+.card >img{
+    width: 100%;
+    height: 200px;
+}
+
+
+/************** Navbar css ************/
+.header{
+    display: flex;
+    justify-content: space-between;  
+    padding: 15px;  
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+.nav-item{
+    /* background-color: red; */
+    /* border: 2px solid black;    */
+}
+.nav-item > ul{
+    display: flex;
+    /* background-color: antiquewhite; */
+    gap: 20px;
+    list-style-type: none;
+}
+.nav-item > ul >li{
+    padding: 10px;
+}
+
+/********nav-belt-jsx**********/
+.search-category-container{
+    /* background-color: rgb(95, 90, 90); */
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.search-Input-btn{
+    background-color:white;
+    font-size: 30px;
+  
+}
+#search-btn{
+    background-color: rgb(182, 177, 173);
+    cursor: pointer;
+}
+.categories-btn{
+    /* background-color: rgb(210, 147, 66); */
+    font-size: 30px;
+    font-style: italic;
+    padding-right: 10px;    
+}
+#categories{
+    font-size: 20px;
+    font-style: italic;
+}
